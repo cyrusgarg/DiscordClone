@@ -17,6 +17,6 @@ jobs:
       - name: Cypress tests
         uses: ./
         with:
-          working-directory: examples/webpack
+          working-directory: src/index.js
           start: npm start
           wait-on: 'http://localhost:8080'
